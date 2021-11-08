@@ -122,6 +122,5 @@ Werkzeug==0.12.2
 whitenoise==5.3.0
 widgetsnbextension==3.1.0
 WTForms==2.2.1
-xdiagnose==3.8.4.1
 XlsxWriter==0.7.3
 zope.interface==4.4.3
