@@ -69,7 +69,6 @@ pexpect==4.0.1
 pickleshare==0.7.4
 Pillow==5.1.0
 plainbox==0.25
-progressbar==2.3
 prompt-toolkit==1.0.15
 protobuf==3.4.0
 ptyprocess==0.5
