@@ -112,8 +112,6 @@ textblob==0.13.0
 tornado==4.5.3
 traitlets==4.3.2
 Twisted==17.9.0
-ufw==0.35
-unattended-upgrades==0.1
 unity-scope-calculator==0.1
 unity-scope-chromiumbookmarks==0.1
 unity-scope-colourlovers==0.1
