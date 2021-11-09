@@ -76,6 +76,8 @@ def form(request):
         form = NameForm(request.POST)
         # check whether it's valid:
         if form.is_valid():
+            if form.cleaned_data.get('modify'):
+                return render(request, 'form.html', {'form': form})
             # process the data in form.cleaned_data as required
             # ...
             # redirect to a new URL:

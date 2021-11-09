@@ -25,7 +25,7 @@ SECRET_KEY = '9!fn(h5no%aa-r%i)him%0v0y%#&^!_o-ayn4+33z&sf5(me@#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['securonix-vis.herokuapp.com']
+ALLOWED_HOSTS = ['securonix-vis.herokuapp.com','127.0.0.1']
 
 
 # Application definition

@@ -17,7 +17,27 @@
   </head>
     
   <body class="container-fluid">
+    <div class="container">
+    <strong style="font-size: 2em">Threat Analysis</strong>
     <hr />
+    <form method="POST">
+        {% csrf_token %}
+        {{form.as_p}}
+       <!-- <input name="modify" value='true' type="hidden" />
+            <input name="param1" value={{param1}} type="hidden" />
+            <input name="param2" value={{param2}} type="hidden" />
+            <input name="param3" value={{param3}} type="hidden" />
+            <input name="param4" value={{param4}} type="hidden" />
+            <input name="param5" value={{param5}} type="hidden" />
+            <input name="param6" value={{param6}} type="hidden" />
+            <input name="param7" value={{param7}} type="hidden" />
+            <input name="param8" value={{param8}} type="hidden" />
+            <input name="param9" value={{param9}} type="hidden" />
+            <input name="param10" value={{param10}} type="hidden" />
+            <input name="param11" value={{param11}} type="hidden" />-->
+            <button class="btn btn-outline-info" style="background-color: #24659a; color:#fff" type="submit">Modify Data</button>
+        </form>
+        <hr/>
     <div class="row">
       <div class="col-md-6">
         <canvas id="myChartline"></canvas>
@@ -48,7 +68,7 @@
         'Utilizing system memory',
         'Ability to scale threat hunting program'
             ]
-        chartLabel = "Securonix"
+        chartLabel = ""
         chartdata = ['{{param1}}','{{param2}}','{{param3}}','{{param4}}','{{param5}}','{{param6}}','{{param7}}','{{param8}}','{{param9}}','{{param10}}','{{param11}}']
         data ={
                      "labels":labels,
